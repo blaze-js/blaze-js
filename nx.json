@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "blaze-app",
+  "npmScope": "blaze-js",
   "affected": {
     "defaultBase": "main"
   },

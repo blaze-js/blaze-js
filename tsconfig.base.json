@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@blaze-js/client": ["packages/client/src/index.ts"],
+      "@blaze-js/core": ["packages/core/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

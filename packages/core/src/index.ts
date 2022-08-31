@@ -2,7 +2,7 @@ import * as Http from 'http';
 import { Server as HttpServer } from 'http';
 import { Server as SocketServer } from 'socket.io';
 
-import { BlazeService } from '@/lib/service';
+import { BlazeService } from './lib/service';
 
 class BlazeJS extends BlazeService {
   http: HttpServer;
